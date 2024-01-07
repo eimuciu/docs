@@ -1,5 +1,14 @@
 # ASP.NET docs
 
+# Minimal API
+
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.MapGet("/", () => "Hello World!");
+
+app.Run();
+
 # Controllers
 
 builder.Services.AddControllers();
@@ -7,7 +16,7 @@ app.MapControllers();
 
 [Route("api/[controller]")]
 [ApiController]
-public class TodoItemsController : ControllerBase
+public class TodoItemsController : ControllerBase {}
 
 [HttpGet]
 [HttpGet("{id}")]
