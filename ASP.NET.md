@@ -23,3 +23,7 @@ public class TodoItemsController : ControllerBase {}
 [HttpPut("{id}")]
 [HttpPost]
 [HttpDelete("{id}")]
+
+# Entity Framework
+
+https://learn.microsoft.com/en-us/ef/ef6/querying/
