@@ -25,5 +25,7 @@ public class TodoItemsController : ControllerBase {}
 [HttpDelete("{id}")]
 
 # Entity Framework
-
 https://learn.microsoft.com/en-us/ef/ef6/querying/
+
+builder.Services.AddDbContext<TodoContext>(opt =>
+    opt.UseInMemoryDatabase("TodoList"));
