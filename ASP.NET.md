@@ -38,6 +38,20 @@ public TodoContext(DbContextOptions<TodoContext> options)
 : base(options)
 {
 }
-    public DbSet<TodoItem> TodoItems { get; set; } = null!;
+public DbSet<TodoItem> TodoItems { get; set; } = null!;
+
+}
+
+protected override void OnModelCreating(DbModelBuilder modelBuilder)
+{
+modelBuilder.Properties()
+.Where(p => p.Name == "Key")
+.Configure(p => p.IsKey());
+
+modelBuilder.Entity<Student>()
+.Property(s => s.StudentId)
+.HasColumnName("Id")
+.HasDefaultValue(0)
+.IsRequired();
 
 }
