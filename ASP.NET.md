@@ -53,5 +53,8 @@ modelBuilder.Entity<Student>()
 .HasColumnName("Id")
 .HasDefaultValue(0)
 .IsRequired();
-
 }
+
+Fluent API
+https://www.entityframeworktutorial.net/efcore/fluent-api-in-entity-framework-core.aspx#:~:text=Entity%20Framework%20Fluent%20API%20is,acts%20as%20a%20Fluent%20API.
+
