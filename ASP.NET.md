@@ -58,3 +58,20 @@ modelBuilder.Entity<Student>()
 Fluent API
 https://www.entityframeworktutorial.net/efcore/fluent-api-in-entity-framework-core.aspx#:~:text=Entity%20Framework%20Fluent%20API%20is,acts%20as%20a%20Fluent%20API.
 
+Model Validation Data Annotation
+
+[Required]
+[StringLength(100)]
+[StringLength(8, ErrorMessage = "Name length can't be more than 8.")]
+[DataType(DataType.Date)]
+[Display(Name = "Release Date")]
+[Range(0, 999.99)]
+[AcceptVerbs("GET", "POST")]
+[ValidateNever]
+[CreditCard]
+[Compare]
+[EmailAddress]
+[Phone]
+[RegularExpression]
+[Url]
+[Remote]
