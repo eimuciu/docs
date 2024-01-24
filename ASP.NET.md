@@ -71,7 +71,7 @@ Model Validation Data Annotation
 [CreditCard]
 [Compare]
 [EmailAddress]
-[Phone]
+<!-- [Phone] -->
 <!-- [RegularExpression] -->
 <!-- [Url] -->
 <!-- [Remote] -->
