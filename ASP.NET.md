@@ -69,7 +69,7 @@ Model Validation Data Annotation
 [AcceptVerbs("GET", "POST")]
 [ValidateNever]
 [CreditCard]
-[Compare]
+<!-- [Compare] -->
 <!-- [EmailAddress] -->
 <!-- [Phone] -->
 <!-- [RegularExpression] -->
