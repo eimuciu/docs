@@ -65,7 +65,7 @@ Model Validation Data Annotation
 [StringLength(8, ErrorMessage = "Name length can't be more than 8.")]
 [DataType(DataType.Date)]
 [Display(Name = "Release Date")]
-[Range(0, 999.99)]
+<!-- [Range(0, 999.99)] -->
 <!-- [AcceptVerbs("GET", "POST")] -->
 <!-- [ValidateNever] -->
 <!-- [CreditCard] -->
