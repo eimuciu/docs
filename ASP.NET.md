@@ -73,5 +73,5 @@ Model Validation Data Annotation
 <!-- [EmailAddress] -->
 <!-- [Phone] -->
 <!-- [RegularExpression] -->
-<!-- [Url] -->
+[Url]
 [Remote]
