@@ -70,7 +70,7 @@ Model Validation Data Annotation
 <!-- [ValidateNever] -->
 <!-- [CreditCard] -->
 <!-- [Compare] -->
-<!-- [EmailAddress] -->
+[EmailAddress]
 [Phone]
 [RegularExpression]
 [Url]
