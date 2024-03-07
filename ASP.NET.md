@@ -68,7 +68,7 @@ Model Validation Data Annotation
 <!-- [Range(0, 999.99)] -->
 <!-- [AcceptVerbs("GET", "POST")] -->
 <!-- [ValidateNever] -->
-<!-- [CreditCard] -->
+[CreditCard]
 [Compare]
 [EmailAddress]
 [Phone]
