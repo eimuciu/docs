@@ -67,7 +67,7 @@ Model Validation Data Annotation
 <!-- [Display(Name = "Release Date")] -->
 <!-- [Range(0, 999.99)] -->
 <!-- [AcceptVerbs("GET", "POST")] -->
-<!-- [ValidateNever] -->
+[ValidateNever]
 [CreditCard]
 [Compare]
 [EmailAddress]
