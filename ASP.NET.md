@@ -63,7 +63,7 @@ Model Validation Data Annotation
 <!-- [Required] -->
 <!-- [StringLength(100)] -->
 <!-- [StringLength(8, ErrorMessage = "Name length can't be more than 8.")] -->
-<!-- [DataType(DataType.Date)] -->
+[DataType(DataType.Date)]
 [Display(Name = "Release Date")]
 [Range(0, 999.99)]
 [AcceptVerbs("GET", "POST")]
